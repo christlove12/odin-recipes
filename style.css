@@ -1,4 +1,49 @@
-html, body {
-  height: 100%;
-  width: 100%;
+*{
+  margin:0;
+  padding:0;
 }
+
+
+
+ body {
+  
+  height: 100%;
+  
+  width: 100%;
+  background-color: lightcoral;
+  font-size:15px;
+  font-style:italic;
+  border: 5px solid black ;
+  padding: 20px 0;
+  
+}
+
+ul{
+display: inline-block;
+list-style:none;
+  text-decoration: none;
+  text-decoration-line:none;
+  
+}
+
+li {
+   list-style-type:none;
+  
+display: inline-block;
+}
+
+li:link {
+  color: whitesmoke;
+}
+
+li:hover{
+background-color: #333;
+color: #e222e6ee;
+
+}
+
+li:visited{
+
+  color: aqua;
+  
+  }
